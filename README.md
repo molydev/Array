@@ -21,55 +21,55 @@ Array/basics provide the following :
 * uniq
 * equals
 
-#### Map
+#### map
 ```javascript
 	[10,20].map(function(n) { return n * 2 }); // [20, 40]
 ```
 
-#### Collect 
+#### collect 
 Such as map, but provide a useful tricks :
 ```javascript
 	[{ name : 'cyril'}, { name : 'piercus'}].collect('name') // ['cyril', 'piercus']
 ```
 
-### Send
+#### send
 Useful, allow you to call a method on each element of the array
 ```javascript
 [{ callMe : function(arg) { console.log(arg)}}, { callMe : function() { console.log('world')}}].send('callMe', 'hello'); // log 'hello' and then 'world'
 ```
  
-### Where
+#### where
 Return a new array with all found occurences
 
-#### Find
+#### find
 Return the first found occurence wich evaluate to true
 
-#### First 
+#### first 
 Return array[0]
 
-#### Has
+#### has
 Return true if instance has value 
 ```javascript
 ['cyril', 'piercus'].has('cyril'); // true
 ```
 
-####  onEls
+#### onEls
 Replaces every element of this with f(element)
 
-#### Remove
+#### remove
 If found, the argument is removed from the array
 
-#### Last
+#### last
 Return the last element of the array
 
-#### Except
+#### except
 Return a new array without the element that are the same at the argument
 
 #### isIn
 
-#### Equals
+#### equals
 
-#### Each
+#### each
 
 ## Math
 
