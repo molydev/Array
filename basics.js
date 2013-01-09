@@ -8,5 +8,10 @@ define('Array/group1', [
 	'./onEls',
 	'./remove',
 	'./removeOneValue',
-	'./remove'
+	'./remove',
+	'./except',
+	'./exceptFn',
+	'./isIn',
+	'./uniq',
+	'./equals'
  ], {})

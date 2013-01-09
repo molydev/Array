@@ -6,8 +6,7 @@ define('Array/collect', function() {
       for (var i = -1, n = this.length; ++i < n; ) {
         res.push(this[i][f]);
       }
-    }
-    else {
+    } else {
       for (var i = -1, n = this.length; ++i < n; ) {
         res.push(f(this[i]));
       }
