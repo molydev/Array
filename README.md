@@ -1,4 +1,4 @@
-Array.prototype augmentations in javascript
+Javascript Array.prototype augmentations 
 =================================
 
 All helpers are atomised in AMD modules. You can use it for instance with require.js or almond.js.  
@@ -49,7 +49,7 @@ Useful, allow you to call a method on each element of the array
 ```
  
 ### Where
-Return an array with all found occurence
+Return a new array with all found occurences
 
 #### Find
 Return the first found occurence wich evaluate to true
