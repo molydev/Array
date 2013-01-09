@@ -1,7 +1,5 @@
 define('Array/math/all', ['core/extend'], function(extend) {
   
-  // should be splitted into atomic functions
-
   extend(Array.prototype, {
 
     equals : function(a) {
@@ -86,17 +84,6 @@ define('Array/math/all', ['core/extend'], function(extend) {
 
     norm : function() {
       return Math.sqrt(this.sum(function(i){return i*i}));
-    },
-
-    getAngleFromAxis : function() {
-      return (this[0] < 0 ? 
-              Math.PI : 
-              0
-          ) + (
-          this[0] == 0 ? 
-              (this[1] < 0 ? -1 : 1 )*Math.PI/2 : 
-              Math.atan(this[1]/this[0])
-          )
     }
 
   });
