@@ -1,4 +1,4 @@
-define('Array/group1', [
+define('Array/basics', [
 	'./collect',
 	'./each',
 	'./first',

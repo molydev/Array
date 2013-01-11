@@ -1,4 +1,4 @@
-(fjs.define('Array/exceptFn', function() {
+define('Array/exceptFn', function() {
   
   Array.prototype.exceptFn = function(f) { 
     var r = this.slice();
@@ -6,4 +6,4 @@
     return r;
   }
   
-}));
+});

@@ -8,4 +8,4 @@ define('Array/equals', ['Array/isIn'], function() {
   };
         
 
-};
+});

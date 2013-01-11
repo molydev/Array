@@ -6,6 +6,6 @@ define('Array/isIn', ['Array/has'], function() {
       if (!array.has(this[i])) return false;
     }
     return true;
-  };
+  }
 
-};
+});
