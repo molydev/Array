@@ -1,5 +1,5 @@
-Javascript Array.prototype augmentations 
-=================================
+## Array.prototype augmentations - javascript
+--------------------------------------
 
 All helpers are atomised in AMD modules. You can use it for instance with require.js or almond.js.  
 
@@ -71,7 +71,7 @@ Return a new array without the element that are the same at the argument
 
 #### each
 
-## Math
+### Math
 
 Useful helpers when dealing with geometry.
 
@@ -84,3 +84,8 @@ Useful helpers when dealing with geometry.
 * add 
 * round
 * norm
+
+### Authors 
+*[Sam Ton That](https://github.com/KspR)
+*[Pierre Cole](https://github.com/piercus)
+*[Cyril Agosta](https://github.com/cagosta)
