@@ -1,4 +1,4 @@
-define('Array/math/all', ['core/extend'], function(extend) {
+define('Array/math/all', ['objects/extend'], function(extend) {
   
   extend(Array.prototype, {
 
