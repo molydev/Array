@@ -13,5 +13,6 @@ define('Array/basics', [
 	'./exceptFn',
 	'./isIn',
 	'./uniq',
-	'./equals'
+	'./equals',
+	'./find'
  ], {})

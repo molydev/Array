@@ -1,4 +1,4 @@
-(fjs.define('core/prototypes/array/eachPair', function() {
+define('Array/eachPair', function() {
 
   
   Array.prototype.eachPair = function(f) {
@@ -10,4 +10,4 @@
   };
 
 
-}));
+});
